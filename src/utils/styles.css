@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'sofia-pro', 'Helvetica', 'Arial', sans-serif;
+    color: #31312d;
+    background: linear-gradient(0deg, #dbd6f4 0%, #ceb6dd 100%);
+    min-height: 100vh;
+    font-weight: 300;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 60px;
+}
+
+nav {
+    display: flex;
+    color: #31312d;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+nav ul li:hover {
+    text-decoration: underline 5px solid #dbfe87;
+}
+
+h1 a {
+    font-family: 'Vollkorn', serif;
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+ul {
+    padding: 20px;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #451535;
+}
+
+/* MAIN SECTION */
+.project {
+    max-width: 900px;
+    margin: auto;
+    padding: 80px;
+}
+
+/* ABOUT */
+.about {
+    display: flex;
+}
+
+.avatar {
+    width: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-right: 50px;
+}
+
+/* RESUME */
+.skills {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    margin: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.fa {
+    padding: 15px;
+    margin: 5px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #ceb6dd;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
