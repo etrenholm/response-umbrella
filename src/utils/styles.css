@@ -87,12 +87,84 @@ a {
     padding-right: 50px;
 }
 
+/* PORTFOLIO */
+.work {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.work1 {
+    background: url(assets/TravelSphere.jpg);
+}
+
+.work2 {
+    background: url(assets/Trivia-Blast.jpg);
+}
+
+.work3 {
+    background: url(assets/Run-Buddy.jpg);
+}
+
+.work4 {
+    background: url(assets/Team-Generator.jpg);
+}
+
+h4 {
+    text-align: center;
+}
+
+
+#rcorners {
+    border-radius: 10px;
+    background-position: left top;
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 20px; 
+    width: 360px;
+    height: 240px;
+    flex-direction: row;
+}
+
+#rcorners:hover {
+    opacity: 70%;
+    transition: .2s ease-in-out;
+}
+
 /* RESUME */
 .skills {
     display: flex;
     gap: 30px;
     justify-content: space-between;
     text-align: center;
+}
+
+/* CONTACT */
+input,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0px;
+    font-family: 'sofia-pro', 'Helvetica', 'Arial', sans-serif;
+}
+
+textarea {
+    height: 60px;
+}
+
+button {
+    padding: 10px 30px;
+    margin-top: 20px;
+    background-color: #451535;
+    border: none;
+    color: white;
+    font-family: 'sofia-pro', 'Helvetica', 'Arial', sans-serif;
+}
+
+button:hover {
+    opacity: 80%;
+    cursor: pointer;
 }
 
 /* FOOTER */

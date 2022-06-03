@@ -1,13 +1,190 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'sofia-pro', 'Helvetica', 'Arial', sans-serif;
+  color: #31312d;
+  background: linear-gradient(0deg, #dbd6f4 0%, #ceb6dd 100%);
+  min-height: 100vh;
+  font-weight: 300;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 60px;
+}
+
+nav {
+  display: flex;
+  color: #31312d;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 70px;
+}
+
+nav ul li:hover {
+  text-decoration: underline 5px solid #dbfe87;
+}
+
+h1 a {
+  font-family: 'Vollkorn', serif;
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+ul {
+  padding: 20px;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #451535;
+}
+
+/* MAIN SECTION */
+.project {
+  max-width: 900px;
+  margin: auto;
+  padding: 80px;
+}
+
+/* ABOUT */
+.about {
+  display: flex;
+}
+
+.avatar {
+  width: 200px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-right: 50px;
+}
+
+/* PORTFOLIO */
+.work {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.work1 {
+  background: url(/src/utils/assets/TravelSphere.jpg);
+}
+
+.work2 {
+  background: url(/src/utils/assets/Trivia-Blast.jpg);
+}
+
+.work3 {
+  background: url(/src/utils/assets/Run-Buddy.jpg);
+}
+
+.work4 {
+  background: url(/src/utils/assets/Team-Generator.jpg);
+}
+
+h4 {
+  text-align: center;
+}
+
+
+#rcorners {
+  border-radius: 10px;
+  background-position: left top;
+  background-repeat: repeat;
+  background-size: cover;
+  padding: 20px; 
+  width: 360px;
+  height: 240px;
+  flex-direction: row;
+}
+
+#rcorners:hover {
+  opacity: 70%;
+  transition: .2s ease-in-out;
+}
+
+/* RESUME */
+.skills {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* CONTACT */
+input,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0px;
+  font-family: 'sofia-pro', 'Helvetica', 'Arial', sans-serif;
+}
+
+textarea {
+  height: 60px;
+}
+
+button {
+  padding: 10px 30px;
+  margin-top: 20px;
+  background-color: #451535;
+  border: none;
+  color: white;
+  font-family: 'sofia-pro', 'Helvetica', 'Arial', sans-serif;
+}
+
+button:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  margin: 20px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.fa {
+  padding: 15px;
+  margin: 5px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #ceb6dd;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
 }
