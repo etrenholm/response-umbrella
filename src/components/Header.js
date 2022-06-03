@@ -1,8 +1,16 @@
+import Navigation from "./Navigation";
+
 function Header() {
 
     return (
-        <div>
-        </div>
+        <header>
+            <h1>
+                <a href="/">
+                    Hi, I'm Erica.
+                </a>
+            </h1>
+            <Navigation />
+        </header>
     )
 }
 

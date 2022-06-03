@@ -96,19 +96,19 @@ a {
 }
 
 .work1 {
-  background: url(/src/utils/assets/TravelSphere.jpg);
+  background: url(/src/assets/TravelSphere.jpg);
 }
 
 .work2 {
-  background: url(/src/utils/assets/Trivia-Blast.jpg);
+  background: url(/src/assets/Trivia-Blast.jpg);
 }
 
 .work3 {
-  background: url(/src/utils/assets/Run-Buddy.jpg);
+  background: url(/src/assets/Run-Buddy.jpg);
 }
 
 .work4 {
-  background: url(/src/utils/assets/Team-Generator.jpg);
+  background: url(/src/assets/Team-Generator.jpg);
 }
 
 h4 {
@@ -177,7 +177,6 @@ footer {
 .fa {
   padding: 15px;
   margin: 5px;
-  font-size: 30px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
