@@ -1,10 +1,13 @@
+import avatar from '../../assets/Erica_Avatar.svg'
+
+
 function About() {
 
     return (
         <div className="about">
 
             <div>
-            <img className="avatar" src="../../assets/Erica_Avatar.svg" />
+            <img className="avatar" src={avatar} alt="avatar" />
             </div>
 
             <div>

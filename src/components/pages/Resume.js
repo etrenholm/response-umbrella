@@ -1,3 +1,5 @@
+import resume from '../../assets/Resume_2022.pdf'
+
 function Resume() {
 
     return (
@@ -5,7 +7,7 @@ function Resume() {
 
             <h2>Resume</h2>
 
-            <p>View my full <a href="/">resume</a>.</p>
+            <p>View my full <a href={resume} target="_blank" rel="noreferrer">resume</a>.</p>
 
             <div className="skills">
                 <div>

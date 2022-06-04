@@ -8,10 +8,10 @@ function Project() {
 
     return (
         <section className="project">
-            {/* <Resume /> */}
+            <Resume />
             <About />
-            {/* <Portfolio /> */}
-            {/* <Contact /> */}
+            <Portfolio />
+            <Contact />
         </section>
     )
 }
