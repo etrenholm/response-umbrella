@@ -22,7 +22,6 @@ header {
 
 nav {
   display: flex;
-  color: #31312d;
 }
 
 nav ul {
@@ -31,8 +30,13 @@ nav ul {
   gap: 70px;
 }
 
-nav ul li:hover {
+nav a:hover {
   text-decoration: underline 5px solid #dbfe87;
+}
+
+nav a {
+  font-weight: 300;
+  color: #31312d;
 }
 
 h1 a {
@@ -104,19 +108,41 @@ a {
 }
 
 .work3 {
-  background: url(/src/assets/Run-Buddy.jpg);
+  background: url(/src/assets/Tech-Blog.jpg);
 }
 
 .work4 {
   background: url(/src/assets/Team-Generator.jpg);
 }
 
+.work5 {
+  background: url(/src/assets/Weather-Dashboard.jpg);
+}
+
+.work6 {
+  background: url(/src/assets/Run-Buddy.jpg);
+}
+
 h4 {
   text-align: center;
 }
 
+.hover-box {
+  opacity: 0;
+  background-color: white;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  margin: 25px;
+}
 
-#rcorners {
+.hover-box p {
+  font-weight: normal;
+  color: #31312d;
+}
+
+#project {
   border-radius: 10px;
   background-position: left top;
   background-repeat: repeat;
@@ -127,10 +153,11 @@ h4 {
   flex-direction: row;
 }
 
-#rcorners:hover {
-  opacity: 70%;
-  transition: .2s ease-in-out;
+#project:hover .hover-box {
+  opacity: 1;
+  transition: .5s ease-in-out;
 }
+
 
 /* RESUME */
 .skills {
@@ -165,6 +192,11 @@ button {
 button:hover {
   opacity: 80%;
   cursor: pointer;
+}
+
+.error {
+  font-size: small;
+  font-weight: 700;
 }
 
 /* FOOTER */

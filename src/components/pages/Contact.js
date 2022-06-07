@@ -1,28 +1,98 @@
-function Portfolio() {
+import { useState } from 'react';
 
+const validateEmail = email => {
+    var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+}
+
+function Contact() {
+
+    const [errorMessage, setErrorMessage] = useState('')
+    const [formState, setFormState] = useState({
+        name: '',
+        email: '',
+        message: ''
+    });
+
+    const { name, email, message } = formState
+
+    const handleChange = event => {
+
+        if(event.target.name === 'email') {
+
+            const isValid = validateEmail(event.target.value)
+
+            if (!isValid) {
+                setErrorMessage('Please enter a valid email address.')
+            } else {
+                setErrorMessage('')
+            }
+        } else {
+            if (!event.target.value.length) {
+                setErrorMessage(`${event.target.name} is required.`)
+            } else {
+                setErrorMessage('')
+            }
+        } 
+
+        if(!errorMessage) {
+            setFormState({ ...formState, [event.target.name]: event.target.value})
+        }
+    }
+
+    const handleSubmit = event => {
+        event.preventDefault()
+        console.log(formState)
+    }
+    
     return (
-        <div class="contact">
+        <div className="contact">
 
-            <h2>Contact</h2>
+            <h2>Contact me.</h2>
 
-            <form id="contact-form">
+            <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" />
+                    <input 
+                        type="text" 
+                        name="name" 
+                        defaultValue={name} 
+                        onBlur={handleChange}
+                    />
                 </div>
                 <div>
                     <label htmlFor="email">Email:</label>
-                    <input type="email" name="email" />
+                    <input 
+                        type="email" 
+                        name="email" 
+                        defaultValue={email} 
+                        onBlur={handleChange}
+                    />
                 </div>
                 <div>
                     <label htmlFor="message">Message:</label>
-                    <textarea class="message" type="message" name="message"></textarea>
+                    <textarea 
+                        className="message" 
+                        type="message" 
+                        name="message" 
+                        defaultValue={message} 
+                        onBlur={handleChange}
+                    />
                 </div>
-                <button id="submitbtn" type="submit">Submit</button>
+                {errorMessage && (
+                    <div>
+                        <p className="error">{errorMessage}</p>
+                    </div>
+                )}
+                <button 
+                    id="submit-btn" 
+                    type="submit">
+                        Submit
+                </button>
             </form>
 
         </div>
     )
 }
 
-export default Portfolio;
+export default Contact;
