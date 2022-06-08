@@ -9,7 +9,7 @@ import About from './components/pages/About';
 
 function App() {
 
-  const [currentPage, setCurrentPage] = useState('Contact');
+  const [currentPage, setCurrentPage] = useState('Portfolio');
 
   const renderPage = () => {
       if (currentPage === 'About') {
@@ -24,12 +24,12 @@ function App() {
       return <Portfolio />;
   }
 
-  const setPageHandler = (page) => setCurrentPage(page)
+  const handlePageChange = (page) => setCurrentPage(page)
 
   return (
     <div>
       <Header>
-        <Navigation currentPage={currentPage} setPageHandler={setPageHandler} />
+        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       </Header>
       <section className="project">
         {renderPage()}

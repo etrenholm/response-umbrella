@@ -1,6 +1,7 @@
-function Navigation({ currentPage, setPageHandler }) {
 
-    console.log(setPageHandler)
+function Navigation({ currentPage, handlePageChange }) {
+
+    console.log(currentPage)
 
     return (
         <div>
@@ -9,25 +10,25 @@ function Navigation({ currentPage, setPageHandler }) {
                     <li>
                         <a 
                         href="#about" 
-                        onClick={() => setPageHandler('About')} 
+                        onClick={() => handlePageChange('About')} 
                         className={currentPage === 'About'}>About</a>
                     </li>
                     <li>
                         <a 
                         href="#portfolio" 
-                        onClick={() => setPageHandler('Portfolio')} 
+                        onClick={() => handlePageChange('Portfolio')} 
                         className={currentPage === 'Portfolio'}>Portfolio</a>
                     </li>
                     <li>
                         <a 
                         href="#contact" 
-                        onClick={() => setPageHandler('Contact')} 
+                        onClick={() => handlePageChange('Contact')} 
                         className={currentPage === 'Contact'}>Contact</a>
                     </li>
                     <li>
                         <a 
                         href="#resume" 
-                        onClick={() => setPageHandler('Resume')} 
+                        onClick={() => handlePageChange('Resume')} 
                         className={currentPage === 'Resume'}>Resume</a>
                     </li>
                 </ul>
