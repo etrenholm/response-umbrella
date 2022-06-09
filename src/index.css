@@ -39,6 +39,10 @@ nav a {
   color: #31312d;
 }
 
+.nav-active {
+  text-decoration: underline 5px solid #dbfe87;
+}
+
 h1 a {
   font-family: 'Vollkorn', serif;
   color: black;

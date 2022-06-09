@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer'
-import Navigation from './components/Navigation';
 import Resume from './components/pages/Resume';
 import Portfolio from './components/pages/Portfolio';
 import Contact from './components/pages/Contact';
@@ -24,12 +23,9 @@ function App() {
       return <Portfolio />;
   }
 
-  const handlePageChange = (page) => setCurrentPage(page)
-
   return (
     <div>
-      <Header>
-        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header currentPage={currentPage} setCurrentPage={setCurrentPage}>
       </Header>
       <section className="project">
         {renderPage()}

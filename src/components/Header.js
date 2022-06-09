@@ -1,6 +1,6 @@
 import Navigation from "./Navigation";
 
-function Header() {
+function Header({ currentPage, setCurrentPage }) {
 
     return (
         <header>
@@ -9,7 +9,7 @@ function Header() {
                     Hi, I'm Erica.
                 </a>
             </h1>
-            <Navigation />
+            <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage} />
         </header>
     )
 }

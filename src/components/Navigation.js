@@ -1,7 +1,5 @@
+function Navigation({ currentPage, setCurrentPage }) {
 
-function Navigation({ currentPage, handlePageChange }) {
-
-    console.log(currentPage)
 
     return (
         <div>
@@ -10,26 +8,30 @@ function Navigation({ currentPage, handlePageChange }) {
                     <li>
                         <a 
                         href="#about" 
-                        onClick={() => handlePageChange('About')} 
-                        className={currentPage === 'About'}>About</a>
+                        onClick={() => setCurrentPage('About')} 
+                        className={currentPage === 'About' ? 'nav-active' : ''}
+                        >About</a>
                     </li>
                     <li>
                         <a 
                         href="#portfolio" 
-                        onClick={() => handlePageChange('Portfolio')} 
-                        className={currentPage === 'Portfolio'}>Portfolio</a>
+                        onClick={() => setCurrentPage('Portfolio')} 
+                        className={currentPage === 'Portfolio' ? 'nav-active' : ''}
+                        >Portfolio</a>
                     </li>
                     <li>
                         <a 
                         href="#contact" 
-                        onClick={() => handlePageChange('Contact')} 
-                        className={currentPage === 'Contact'}>Contact</a>
+                        onClick={() => setCurrentPage('Contact')} 
+                        className={currentPage === 'Contact' ? 'nav-active' : ''}
+                        >Contact</a>
                     </li>
                     <li>
                         <a 
                         href="#resume" 
-                        onClick={() => handlePageChange('Resume')} 
-                        className={currentPage === 'Resume'}>Resume</a>
+                        onClick={() => setCurrentPage('Resume')} 
+                        className={currentPage === 'Resume' ? 'nav-active' : ''}
+                        >Resume</a>
                     </li>
                 </ul>
 

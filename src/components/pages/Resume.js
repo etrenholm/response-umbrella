@@ -22,6 +22,7 @@ function Resume() {
                     <h3>Front-end</h3>
                         <p>HTML</p>
                         <p>CSS</p>
+                        <p>Visual Studio Code</p>
                         <p>JavaScript</p>
                         <p>Bootstrap</p>
                         <p>Tailwind</p>

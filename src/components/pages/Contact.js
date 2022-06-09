@@ -48,7 +48,9 @@ function Contact() {
     return (
         <div className="contact">
 
-            <h2>Contact me.</h2>
+            <h2>Contact</h2>
+
+            <p>Fill out the form below or email me at <a href="mailto:erica.trenholm48@gmail.com">erica.trenholm48@gmail.com</a>.</p>
 
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
