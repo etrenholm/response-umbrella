@@ -57,11 +57,12 @@ npm start
 * Made tweaks and finished README.md
 
 ## Results
-* [GitHub Link]()
+* [GitHub Link](https://etrenholm.github.io/response-umbrella/)
 * [GitHub Repository](https://github.com/etrenholm/response-umbrella)
 
 ### Output Example
-![mockup]()
+![mockup](./assets/mockup1.png)
+![mockup](./assets/mockup2.png)
 
 ## Credit
 Erica Trenholm: https://github.com/etrenholm
