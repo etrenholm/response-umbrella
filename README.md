@@ -29,7 +29,7 @@ npm start
 * VS Code
 * JavaScript
 * Terminal
-* GitHub
+* Git/GitHub
 * React
 
 ## Process
