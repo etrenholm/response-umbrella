@@ -5,7 +5,7 @@ function Header({ currentPage, setCurrentPage }) {
     return (
         <header>
             <h1>
-                <a href="#portfolio">
+                <a href="/">
                     Hi, I'm Erica.
                 </a>
             </h1>

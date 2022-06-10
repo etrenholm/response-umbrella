@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
@@ -266,8 +266,12 @@ footer {
 
   #project,
   .hover-box {
-    width: 500px;
-    height: 330px;
+    width: 400px;
+    height: 270px;
+  }
+
+  nav ul {
+    gap: 30px;
   }
 
 }
