@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/response-umbrella/static/css/main.fb53bba7.css",
+    "main.js": "/response-umbrella/static/js/main.ef7def2f.js",
+    "static/js/787.a2cb61a6.chunk.js": "/response-umbrella/static/js/787.a2cb61a6.chunk.js",
+    "static/media/TravelSphere.jpg": "/response-umbrella/static/media/TravelSphere.f62c9459e13c34c7fb22.jpg",
+    "static/media/Run-Buddy.jpg": "/response-umbrella/static/media/Run-Buddy.41add75a478694192600.jpg",
+    "static/media/Weather-Dashboard.jpg": "/response-umbrella/static/media/Weather-Dashboard.36989ddd448097c5dbe3.jpg",
+    "static/media/Team-Generator.jpg": "/response-umbrella/static/media/Team-Generator.c5d6e7d0a048896bd24e.jpg",
+    "static/media/Trivia-Blast.jpg": "/response-umbrella/static/media/Trivia-Blast.2a6dae2c4246d22e660e.jpg",
+    "static/media/Tech-Blog.jpg": "/response-umbrella/static/media/Tech-Blog.918e3e237bc56a0c2818.jpg",
+    "static/media/Resume_2022.pdf": "/response-umbrella/static/media/Resume_2022.64650aa3d864e466d77e.pdf",
+    "static/media/Erica_Avatar.svg": "/response-umbrella/static/media/Erica_Avatar.00df27752127254871b4a09012909bf5.svg",
+    "index.html": "/response-umbrella/index.html",
+    "main.fb53bba7.css.map": "/response-umbrella/static/css/main.fb53bba7.css.map",
+    "main.ef7def2f.js.map": "/response-umbrella/static/js/main.ef7def2f.js.map",
+    "787.a2cb61a6.chunk.js.map": "/response-umbrella/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb53bba7.css",
+    "static/js/main.ef7def2f.js"
+  ]
+}
