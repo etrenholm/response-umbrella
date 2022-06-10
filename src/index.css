@@ -266,12 +266,12 @@ footer {
 
   #project,
   .hover-box {
-    width: 400px;
-    height: 270px;
+    width: 375px;
+    height: 250px;
   }
 
   nav ul {
-    gap: 30px;
+    gap: 40px;
   }
 
 }
