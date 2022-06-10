@@ -29,9 +29,8 @@ npm start
 * VS Code
 * JavaScript
 * Terminal
-* Git/GitHub
+* GitHub
 * React
-* Heroku
 
 ## Process
 ### STEP 1. - SETUP
@@ -43,13 +42,13 @@ npm start
 
 ### STEP 2. - BUILD COMPONENTS AND PAGES
 * Create Component files for Footer, Header, Navigation, and Project
-* Create Page Component files for About, Contact, Portfolio, and Resume
+* Create Page files for About, Contact, Portfolio, and Resume
 * Insert HTML template into appropriate components using JSX
 * Implement CSS file into public index.html
 
 ### STEP 3. - ADD FUNCTIONALITY
-* Add navigation functionality with useState Hook
-* Add portfolio functionality with useState Hook
+* Add navigation/header functionality with useState Hook
+* Add portfolio/project functionality with useState Hook
 * Add contact form functionality with useState Hook
 
 ### STEP 4. - FINALIZE
