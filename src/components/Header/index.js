@@ -5,7 +5,9 @@ function Header({ currentPage, setCurrentPage }) {
     return (
         <header>
             <h1>
-                <a href="/">
+                <a 
+                    href="#portfolio"
+                    onClick={() => setCurrentPage('Portfolio')}>
                     Hi, I'm Erica.
                 </a>
             </h1>
