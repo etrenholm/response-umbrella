@@ -1,4 +1,4 @@
-# Web Development Portfolio
+# React Portfolio
 
 ## Table of contents
 * [Description](#description)
