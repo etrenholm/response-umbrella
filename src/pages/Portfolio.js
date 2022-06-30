@@ -13,11 +13,11 @@ function Portfolio() {
             github: 'https://github.com/etrenholm/TravelSphere',
         },
         {
-            name: 'Team Profile Generator',
-            skills: 'Node.js',
-            className: 'work4',
-            link: 'https://github.com/etrenholm/team-profile-generator',
-            github: 'https://github.com/etrenholm/team-profile-generator',
+            name: 'giv.',
+            skills: 'React, CSS',
+            className: 'work6',
+            link: 'https://github.com/Jesse-Lemieux/giv',
+            github: 'https://giv-social.herokuapp.com/',
         },
         {
             name: 'Another Tech Blog',
@@ -34,19 +34,26 @@ function Portfolio() {
             github: 'https://github.com/etrenholm/trivia-blast',
         },
         {
-            name: 'Run Buddy',
-            skills: 'HTML, CSS',
-            className: 'work6',
-            link: 'https://etrenholm.github.io/run-buddy/',
-            github: 'https://github.com/etrenholm/run-buddy',
-        },
-        {
             name: 'Weather Dashboard',
             skills: 'JavaScript, APIs',
             className: 'work5',
             link: 'https://etrenholm.github.io/weather-dashboard',
             github: 'https://github.com/etrenholm/weather-dashboard',
-        }
+        },
+        {
+            name: 'Team Profile Generator',
+            skills: 'Node.js',
+            className: 'work4',
+            link: 'https://github.com/etrenholm/team-profile-generator',
+            github: 'https://github.com/etrenholm/team-profile-generator',
+        },
+        // {
+        //     name: 'Run Buddy',
+        //     skills: 'HTML, CSS',
+        //     className: 'work6',
+        //     link: 'https://etrenholm.github.io/run-buddy/',
+        //     github: 'https://github.com/etrenholm/run-buddy',
+        // },
 
     ])
 
