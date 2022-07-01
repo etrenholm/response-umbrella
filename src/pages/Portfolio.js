@@ -16,8 +16,8 @@ function Portfolio() {
             name: 'giv.',
             skills: 'React, CSS',
             className: 'work6',
-            link: 'https://github.com/Jesse-Lemieux/giv',
-            github: 'https://giv-social.herokuapp.com/',
+            link: 'https://giv-social.herokuapp.com/',
+            github: 'https://github.com/Jesse-Lemieux/giv',
         },
         {
             name: 'Another Tech Blog',
