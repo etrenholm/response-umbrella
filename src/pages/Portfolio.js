@@ -9,7 +9,8 @@ function Portfolio() {
             name: 'TravelSphere',
             skills: 'Full Stack, Sequelize',
             className: 'work1',
-            link: 'https://travel-sphere.herokuapp.com/',
+            // link: 'https://travel-sphere.herokuapp.com/',
+            link: 'https://github.com/etrenholm/TravelSphere',
             github: 'https://github.com/etrenholm/TravelSphere',
         },
         {
@@ -23,7 +24,8 @@ function Portfolio() {
             name: 'Another Tech Blog',
             skills: 'Sequelize, Express.js',
             className: 'work3',
-            link: 'https://desolate-reaches-38004.herokuapp.com/',
+            // link: 'https://desolate-reaches-38004.herokuapp.com/',
+            link: 'https://github.com/etrenholm/another-tech-blog',
             github: 'https://github.com/etrenholm/another-tech-blog',
         },
         {

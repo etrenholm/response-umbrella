@@ -1,4 +1,4 @@
-import resume from '../assets/Resume_2022.pdf'
+import resume from '../assets/EricaTrenholm_Resume_2023.pdf'
 
 function Resume() {
 
